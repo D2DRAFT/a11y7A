@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -11,10 +10,10 @@
 		<h1><img src="assets/img/logo.png" alt="D2 - DEV &amp; DESIGN DRAFT"></h1>
 		<nav>
 			<ul>
-				<li><a href="#">活動紹介</a></li>
-				<li><a href="#">D2Dとは</a></li>
-				<li><a href="#">ブログ</a></li>
-				<li><a href="#">お問合せ</a></li>
+				<li><a href="#activity">活動紹介</a></li>
+				<li><a href="#about">D2Dとは</a></li>
+				<li><a href="#">イベント一覧</a></li>
+				<li><a href="#inquiry">お問合せ</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -24,7 +23,7 @@
 		<div>気になること、本当に知りたいこと。 ここにあり〼。</div>
 		<img src="assets/img/mainvisual.jpg" alt="">
 
-		<section>
+		<section id="activity">
 			<h2>活動紹介</h2>
 			<h3>前回のD2D勉強会のタイトル</h3>
 			<p>私もたくさんもし同じ矛盾らというのの中がなりですな。もっと将来で通知者はあたかもその影響でましまでがなれていなけれへは発展かい摘んたなくのに、当然にはあるでですましあり。口に思っありのはやはり結果がまあなけれんた。</p>
@@ -33,28 +32,28 @@
 			<a href="#">過去の活動はこちら</a>
 			<h3>関連記事</h3>
 			<ul>
-				<li>2015年１月20日 <a href="#">ここに関連記事のタイトルが入ります。ここに関連記事のタイトルが入ります。</a></li>
-				<li>2015年１月20日 <a href="#">ここに関連記事のタイトルが入ります。ここに関連記事のタイトルが入ります。</a></li>
-				<li>2015年１月20日 <a href="#">ここに関連記事のタイトルが入ります。ここに関連記事のタイトルが入ります。</a></li>
+				<li><div class="date">2015年1月20日</div> <a href="#">ここに関連記事のタイトルが入ります。ここに関連記事のタイトルが入ります。</a></li>
+				<li><div class="date">2015年1月20日</div> <a href="#">ここに関連記事のタイトルが入ります。ここに関連記事のタイトルが入ります。</a></li>
+				<li><div class="date">2015年1月20日</div> <a href="#">ここに関連記事のタイトルが入ります。ここに関連記事のタイトルが入ります。</a></li>
 			</ul>
 		</section>
 
-		<section>
+		<section id="about">
 			<h2>D2Dとは</h2>
 			<p>ウェブのテクニカルな内容とデザイン的な内容を横断した、 特定のプロダクトや技術に限定しない勉強会。</p>
 			<p>私もたくさんもし同じ矛盾らというのの中がなりですな。もっと将来で通知者はあたかもその影響でましまでがなれていなけれへは発展かい摘んたなくのに、当然にはあるでですましあり。口に思っありのはやはり結果がまあなけれんた。</p>
 			<p>私もたくさんもし同じ矛盾らというのの中がなりですな。もっと将来で通知者はあたかもその影響でましまでがなれていなけれへは発展かい摘んたなくのに、当然にはあるでですましあり。口に思っありのはやはり結果がまあなけれんた。</p>
 		</section>
-		<section>
+		<section id="inquiry">
 			<h2>お問合せ</h2>
 			<p>私もたくさんもし同じ矛盾らというのの中がかなりですな。<br>当然にはあるでですましあり。口に思っありのはやはり結果がまあなけれんた。</p>
 			<form method="post" action="#">
 				<div>
-					<label for="name">お名前<span>必須</span></label>
+					<label for="name">お名前 <span>必須</span></label>
 					<input type="text" id="name" aria-required="true" name="#">
 				</div>
 				<div>
-					<label for="mail">メールアドレス<span>必須</span></label>
+					<label for="mail">メールアドレス <span>必須</span></label>
 					<input type="text" aria-required="true" id="mail" name="#">
 				</div>
 				<div>
@@ -70,7 +69,7 @@
 					<div class="radio_bt" role="radiogroup"><label for="about_a"><input type="radio" id="about_a" aria-describedby="contact_type" name="#">Aについて</label><label for="about_b"><input type="radio" id="about_b" aria-describedby="contact_type" name="#">Bについて</label><label for="about_c"><input type="radio" id="about_c" aria-describedby="contact_type" name="#">Cについて</label></div>
 				</div>
 				<div>
-					<label for="inquiry_content">お問合せ内容<span>必須</span></label>
+					<label for="inquiry_content">お問合せ内容 <span>必須</span></label>
 					<textarea rows="6" cols="35" name="#" id="inquiry_content" aria-required="true"></textarea>
 				</div>
 				<input type="submit" value="確認画面へ">
